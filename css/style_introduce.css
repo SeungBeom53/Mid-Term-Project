@@ -89,3 +89,22 @@ p {
 footer i:hover {
   transform: translate(0, -3px);
 }
+
+.whatilove-text {
+  font-size: 55px;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+}
+.whatilove-img {
+  margin-bottom: 20px;
+}
+.whatilove-img img {
+  width:150px;
+  height: 150px;
+  transition: all 0.3s ease-in-out;
+}
+
+.interests .comment {
+  font-size: 16px;
+  font-style: italic;
+}
