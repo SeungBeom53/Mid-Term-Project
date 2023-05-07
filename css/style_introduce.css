@@ -1,3 +1,32 @@
 body {
   margin: 0;
 }
+
+.img {
+  justify-content: center;
+}
+#porfile-img {
+width: 150px;
+height: 150px;
+border: 1px solid #2B3856;
+transform: scale(1);
+border-radius: 70%
+}
+
+.menu-bar {
+  position: fixed;
+  border: 0;
+  background-color: #2B3856;
+  display: block;
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.index {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
