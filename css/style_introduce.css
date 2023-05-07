@@ -30,3 +30,62 @@ border-radius: 70%
   display: flex;
   flex-direction: column;
 }
+
+.index h3 {
+  color: white;
+  opacity: 0.7;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.index h3:hover {
+  font-size: 1.1em;
+  opacity: 1;
+  text-shadow: 0.7px 0.7px 0.7px #000;
+}
+
+section {
+  margin-left: 260px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+}
+
+
+.name {
+  font-size: 65px;
+  font-weight: 900;
+  font-family: 'Oswald', sans-serif;
+}
+.contacts {
+  font-size: 15px;
+  opacity: 0.5;
+  font-family: 'Roboto Mono', monospace;
+  font-style: italic;
+}
+.main-introduction {
+  font-size: 17px;
+  font-family: 'Noto Sans KR', sans-serif;
+  opacity: 0.8;
+}
+
+.fa-brands {
+  color: black;
+  opacity: 0.4
+}
+.fa-solid {
+  color: black;
+  opacity: 0.4
+}
+.sns-pictogram i {
+  margin-right: 40px;
+}
+
+footer i:hover {
+  transform: translate(0, -3px);
+}
