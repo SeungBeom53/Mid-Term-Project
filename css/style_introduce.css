@@ -112,3 +112,19 @@ footer i:hover {
   font-size: 16px;
   font-style: italic;
 }
+
+.img-list {
+  width: 675px;
+}
+
+.interest-img {
+  width: 225px;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+.img-name {
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
